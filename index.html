@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Email XKCD Challenge</title>
+    <script src="View/js/script.js"></script>
+    <link rel="stylesheet" href="View/css/stylesheet.css">
+
+</head>
+
+<body>
+  <div class="comicForm">
+        <div class="form">
+              <fieldset>
+                <legend><h1 class="headings">Subscribe the comics</h1></legend>
+                <label for="email">Email<span style="color: red;">*</span></label>
+                <input type="email" name="email" placeholder="Enter email" id="userEmail" value="cpanchal1009@gmail.com" required> 
+                <button type="submit" class="btn" onclick="return validateEmail()"> Send OTP </button>
+                <div><p id="showError">*</p></div>
+              </fieldset>
+            </div>
+    </div>
+                    <p>You automatically recieve email for subscribed user.In case of site is down you can externally recieve mail using <a href="cron.php" > this link </a></p>
+</body>
+</html>

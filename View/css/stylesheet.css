@@ -1,0 +1,65 @@
+* {
+  margin:5px;
+  padding:5px;
+}
+body {
+        text-align: center;
+        background-color: #404258;
+}
+.comicForm {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center; /* align item horizontally */
+        align-items: center; /* align item vertically */
+         
+    }
+    .form {
+        width: auto;
+        padding: 20px;
+    }
+
+fieldset {
+  border: 2px solid wheat;
+}
+
+
+
+label[for=email],label[for=otp], label[for=unsubscribe], #showError , .headings{
+    color:white;
+    font-size: 25px;
+}
+
+input[type=email] { 
+    height: 28px; 
+    border-radius: 10px;
+} 
+
+input[type=email] ,button {
+  width: 100%;
+  max-width: 250px;
+}
+
+.btn {
+    border-radius: 20px;
+    font-size: 24px;
+    margin: 15px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: beige;
+}
+
+
+@media only screen and (max-width: 745px) {
+  body {
+    background-color: lightblue;
+  }
+   .form {
+    width: 90%;
+    margin: 283px;  
+ }
+  
+  
+}
